@@ -1,11 +1,10 @@
 import image from './oie_lI0dWmLX8Scb.jpg'
 import { AiOutlineStar } from 'react-icons/ai'
-import { BsCurrencyDollar } from 'react-icons/bs'
 import { RiSuitcaseLine } from 'react-icons/ri'
 
 const AboutYou = () => {
   return (
-    <div className="aboutyou">
+    <div className="about-you">
       <div className="online-outer">
         <div className="online"></div>
       </div>
@@ -15,30 +14,29 @@ const AboutYou = () => {
           <AiOutlineStar className="icon" /> 5.0
         </p>
         <p>
-          <BsCurrencyDollar className="icon" />
-          75.0/hr
-        </p>
-        <p>
-          <RiSuitcaseLine className="icon" /> 14 jobs
+          <RiSuitcaseLine className="icon" /> 14 clients
         </p>
       </div>
       <div className="txt">
         {' '}
         <div className="bio">
           <p>
-            "I'm a developer with experience in building websites of small and
-            medium sized businesses. Whether you're trying to win work, list
-            your services or even create a whole online store - i can help!
+            "I am a lawyer from Brazil. I attended college in the USA (Business
+            Degree) and lived there for about seven years (I speak English
+            fluently).
           </p>
         </div>
         <div className="list">
           <ul>
+            <li>I'm experienced in Divorce cases.</li>
             <li>
-              I'm experienced in HTML and CSS 3,PHP,jQuery,WordpPress and SEO
+              I can help you with any area of law, specially in Business Law,
+              Tech Law and LGPD or GDPR.
             </li>
-            <li>I'll fully project manager your brief from start to finish</li>
             <li>
-              Regular communication is really to me, so let's keep in touch!"
+              I have a lot of experience as a Virtual Assistant, and I have
+              worked with several companies and startups coming to India in
+              their legal and business needs."
             </li>
           </ul>
         </div>
