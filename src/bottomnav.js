@@ -1,7 +1,7 @@
 const BottomNav = () => {
-    return ( <nav className="navbar-bottom">
-        <button className="back">Back</button>
-        <button className="add">Next, choose your categories</button>
+    return ( <nav className="navbar-bottom-bio">
+        <button className="back-bio">Back</button>
+        <button className="add-bio">Next, choose your categories</button>
     </nav> );
 }
  

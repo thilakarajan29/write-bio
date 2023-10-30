@@ -7,12 +7,12 @@
   box-sizing: border-box;
 }
 
-.App {
+.App-bio {
   height: 100vh;
   width: 100vw;
 }
 
-.navbar {
+.navbar-bio {
   padding: 20px;
   display: flex;
   align-items: center;
@@ -21,15 +21,15 @@
   border-bottom: 1px solid black;
 }
 
-.navbar h1 {
+.navbar-bio h1 {
   color: black;
 }
 
-.navbar .profile-img {
+.navbar-bio .profile-img-bio {
   margin-left: auto;
 }
 
-.navbar img {
+.navbar-bio img {
   margin-left: auto;
   text-decoration: none;
   height: 25px;
@@ -38,12 +38,12 @@
   border: 1px solid black;
 }
 
-.navbar img:hover {
+.navbar-bio img:hover {
   color: blue;
   cursor: pointer;
 }
 
-.content {
+.content-bio {
   max-width: auto;
   margin-top: 20px;
   margin-left: 20px;
@@ -55,7 +55,7 @@
   width: 700px;
 }
 
-.biobox{
+.biobox-bio{
   margin-left: 20px;
   padding: 20px;
   height: 220px;
@@ -65,7 +65,7 @@
   justify-content: space-between;
 }
 
-.biobox textarea{
+.biobox-bio textarea{
   border: 2px solid gainsboro;
   border-radius: 5px;
   height: 140px;
@@ -75,7 +75,7 @@
   }
 }
 
-.navbar-bottom {
+.navbar-bottom-bio {
   padding: 20px;
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@
   width: 100vw;
 }
 
-.navbar-bottom .add {
+.navbar-bottom-bio .add-bio {
   background-color: blue;
   border: none;
   color: white;
@@ -100,7 +100,7 @@
   border-radius: 10px;
 }
 
-.navbar-bottom .back {
+.navbar-bottom-bio .back-bio {
   border: none;
   padding: 9px 12px;
   text-align: center;
@@ -110,11 +110,11 @@
   border-radius: 10px;
 }
 
-.about-you{
+.about-you-bio{
   position: absolute;
   right: 40px;
   top: 90px;
-  height: 450px;
+  height: fit-content;
   width: 300px;
   padding: 20px;
   flex-direction: column;
@@ -126,7 +126,7 @@
 
 }
 
-.about-you img{
+.about-you-bio img{
   height: 100px;
   width: 100px;
   border-radius: 100%;
@@ -134,7 +134,7 @@
   margin-bottom: 10px;
 }
 
-.rating{
+.rating-bio{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -142,28 +142,32 @@
   width: 180px;
 }
 
-.txt{
+.txt-bio{
   margin-top: 5px;
   padding: 10px;
   font-size: 13px;
 }
 
-.txt .list{
-  position: absolute;
+.txt-bio .list-bio{
   font-size: 13px;
-  left: 10px;
+  padding-top: 5px;
 }
 
-.txt .list li{
-  padding-top: 15px;
+.txt-bio .list-bio ul{
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+.txt-bio .list-bio li{
+  padding-top: 5px;
   padding-right: 15px;
 }
 
-.icon{
+.icon-bio{
   font-size: larger;
 }
 
-.online-outer{
+.online-outer-bio{
   height: 20px;
   width: 20px;
   border-radius: 100%;
@@ -173,7 +177,7 @@
   left: 105px;
 }
 
-.online{
+.online-bio{
   height: 13px;
   width: 13px;
   border-radius: 100%;

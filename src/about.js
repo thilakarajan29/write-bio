@@ -4,29 +4,29 @@ import { RiSuitcaseLine } from 'react-icons/ri'
 
 const AboutYou = () => {
   return (
-    <div className="about-you">
-      <div className="online-outer">
-        <div className="online"></div>
+    <div className="about-you-bio">
+      <div className="online-outer-bio">
+        <div className="online-bio"></div>
       </div>
-      <img src={image} alt="" className="image" />
-      <div className="rating">
+      <img src={image} alt="" className="image-bio" />
+      <div className="rating-bio">
         <p>
-          <AiOutlineStar className="icon" /> 5.0
+          <AiOutlineStar className="icon-bio" /> 5.0
         </p>
         <p>
-          <RiSuitcaseLine className="icon" /> 14 clients
+          <RiSuitcaseLine className="icon-bio" /> 14 clients
         </p>
       </div>
-      <div className="txt">
+      <div className="txt-bio">
         {' '}
-        <div className="bio">
+        <div className="bio-bio">
           <p>
             "I am a lawyer from Brazil. I attended college in the USA (Business
             Degree) and lived there for about seven years (I speak English
             fluently).
           </p>
         </div>
-        <div className="list">
+        <div className="list-bio">
           <ul>
             <li>I'm experienced in Divorce cases.</li>
             <li>
